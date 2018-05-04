@@ -423,7 +423,8 @@ CONFIG_TIMA=y
 CONFIG_TIMA_LKMAUTH=y
 # CONFIG_TIMA_RKP is not set
 # CONFIG_TIMA_TEST_INFRA is not set
-# CONFIG_BUILD_ARM64_APPENDED_DTB_IMAGE is not set
+CONFIG_BUILD_ARM64_APPENDED_DTB_IMAGE=y
+CONFIG_BUILD_ARM64_APPENDED_DTB_IMAGE_NAMES="exynos7870-j5y17lte_kor_open_00 exynos7870-j5y17lte_kor_open_05 exynos7870-j5y17lte_kor_open_07"
 
 #
 # Userspace binary formats
